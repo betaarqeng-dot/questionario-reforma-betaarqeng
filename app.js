@@ -6,7 +6,7 @@ document.getElementById("questionarioReforma").addEventListener("submit", functi
   event.preventDefault();
 
   // Agora usando um template separado para reforma
-  emailjs.sendForm("service_vo4vkdf", "template_reforma", this)
+  emailjs.sendForm("service_vo4vkdf", "template_f9rohrw", this)
     .then(function() {
       alert("✅ Questionário de reforma enviado com sucesso!");
     }, function(error) {
